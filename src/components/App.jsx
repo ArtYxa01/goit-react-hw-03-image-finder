@@ -1,9 +1,9 @@
 import { Component } from 'react';
 import { Button } from './Button/Button';
 import { ImageGallery } from './ImageGallery/ImageGallery';
-import Loader from './Loader/Loader'
+import { Loader } from './Loader/Loader'
 import { Searchbar } from './Searchbar/Searchbar';
-import { fetchData } from './js/java';
+import { fetchData } from './services/api';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 //
